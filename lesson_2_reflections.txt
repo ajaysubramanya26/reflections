@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 When you initialize a git repo you are making the current directory a git repo
 your files will now be tracked and you can maintain versions. You need it to
 maintain versions so that if you end up fucking up , you can always revert.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is what is in between the working direcetory and repo. When you add something to the staging area it is not yet in the repo but its ready to be commited to the repo but awaiting review. You can add files to the staging area using 'git add fileName' , additionally you could also remove files from the staging area using 'git reset fileName'. 
